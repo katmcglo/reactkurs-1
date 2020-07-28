@@ -39,7 +39,7 @@ class App extends Component {
         />
         <UserInput 
           changed={this.changeNameHandler}
-          currentName={this.state.users[1].username}
+          currentName={this.state.users[1]username}
         />
       </div>
     );
